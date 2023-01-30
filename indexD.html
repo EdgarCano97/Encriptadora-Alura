@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptadora</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styleD.css">
+    <script type="text/javascript" src="./script.js"></script>
+        <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+   <!--ALURA LOGO--> 
+    <div class="container">
+        <div class="logo"> 
+            <img class="logoImg" src="./img/alura_logo.png" alt="logo alura">
+            <h1 class="title">Encriptadora de mensajes</h1>
+        </div>
+
+        <!--Ingrese Texto?-->
+        <div class="left">
+            <input class="text-input"  id="inputTexto" tpye="text" placeholder="Ingrese el texto aquí">
+        </div>
+
+        <!--Cuadro muñeco-->
+        <div class="right">
+            <img src="./img/muneco.png" alt="muneco alura" id="imgDer">
+            <h1 id="texto"><strong>Ningun mensaje fue encontrado</strong></h1>
+            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto que desea encriptar o desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+
+        </div>
+        
+        <!--Botones-->
+        <div class="left-button">
+            <p>Solo minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">desencriptar</button>
+    
+        </div>
+    </div>
+
+    <footer>
+        <p class="copyright">creado por Edgar Cano</p>
+    </footer>
+
+
+</body>
+</html>

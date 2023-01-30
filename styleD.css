@@ -1,0 +1,145 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #F3F5FC;
+    
+
+}
+/*contenedor principal, dentro estan: botones, textarea, logo, muñeco, etc*/
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    /*background: blue;*/
+}
+
+/*contenedor de logo ROJO*/
+.logo{
+    width: 100%;
+    float: left;
+    /*background: red;*/
+}
+
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+
+}
+
+.title{
+    float: inherit;
+    margin-left: 20%;
+    font-size: 1.5em;
+}
+
+/*contenedor ingrese texto aqui AMARILLO*/
+.left{
+    float: left;
+    width: 70%; /*ocupa el 70% del contenedor*/
+    height: 70%;
+    border-radius: 24px;
+   /* background: yellow;*/
+}
+
+/*ingrese el texto aqui*/
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%; /*ocupa el 80% del contenedor*/
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none; /*quita el borde lineado negro*/
+    background: #F3F5FC;
+}
+
+/*contenedor del muñeco NARRANJA*/
+.right{
+    float: right;
+    width: 30%; /*ocupa el 30% del contenedor*/
+    border-radius: 24px;
+    background: white;
+   /* background: orange;*/   
+}
+
+#imgDer{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    height: auto;
+}
+
+#texto{
+    margin-left: 10%;
+    margin-right: 7%;
+    font-size: 1.5em;
+}
+
+#texto2{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none; /*elimina el color negro del borde*/
+    outline: none;
+    font-size: 15px;
+    margin-top: 2%;
+}   
+
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none; /*se oculta el boton*/
+}
+
+/*contenedor de los botones ROSA*/
+.left-button{
+    float: left;
+    width: 70%; /*ocupa el 70% del contenedor*/
+    height: auto;
+    margin-top: 1.5em;
+    border-radius: 24px;
+   /* background: pink;*/
+}
+
+/*BOTONES*/
+p{
+    margin-bottom: 1em;
+}
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color: white;
+}
+
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
